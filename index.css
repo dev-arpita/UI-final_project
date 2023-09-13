@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display&display=swap');
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -69,4 +70,42 @@ nav ul li a {
     right: 0;
 }
 
-    
+.open-nav {
+    visibility: unset;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.forest-hero {
+    background: url('images/forest.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.wrapper {
+    padding: .5em;
+    text-align: center;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.subtitle {
+    padding: 3em 0 .5em;
+}
+
+h1 span {
+    display: block;
+    /* clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); */
+}
+
+.cta {
+    display: inline-block;
+    padding: 1em;
+    background: #72A84A;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}   
