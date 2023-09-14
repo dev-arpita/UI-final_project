@@ -159,3 +159,22 @@ ul.features li p,
 .cabin-cta img {
     width: 10px;
 }
+
+
+.feature-container {
+    background: #1A1A1A;
+    color: white;
+}
+
+ul.features {
+    margin: 3em auto;
+    width: 70%;
+}
+
+ul.features li img {
+    width: 40px;
+}
+
+ul.features li p {
+    color: #CCCCCC;
+}
