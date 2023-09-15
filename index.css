@@ -227,3 +227,57 @@ p.test-auth {
     width: 80%;
     opacity: .1;
 }
+
+@media (min-width: 550px) {
+    header {
+        align-items: center;
+    }
+    nav ul {
+        position: unset;
+        height: fit-content;
+        visibility: visible;
+        padding-top: 0;
+        background: initial;
+        opacity: 1;
+        display: flex;
+    }
+
+    nav ul li {
+        font-size: 0.6rem;
+    }
+
+    nav ul li:last-of-type a {
+       padding-right: 0;
+    }
+    nav ul li a {
+        font-weight: normal;
+        font-size: 0.8rem;
+    }
+
+
+    .menu,
+    .exit {
+        display: none;
+    }
+
+    .main-copy p {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    ul.featured-cabins {
+        width: 80%;
+    }
+
+    .cabin-cta {
+        justify-content: end;
+        gap: 10px;
+    }
+    .active a {
+        color: #72A84A;
+        font-weight: bold;
+    }
+}
